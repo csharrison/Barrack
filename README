@@ -1,0 +1,7 @@
+Instructions: try to isolate all the balls
+using the fewest number of lines possible
+while filling up the greatest percentage of the screen
+
+Controls:
+mouse click: draws a horizontal line
+hold down spacebar to draw a vertical line when clicking
