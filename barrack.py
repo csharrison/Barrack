@@ -256,8 +256,9 @@ while going:
 	clock.tick(300)
 	for e in pygame.event.get():
 		mx,my = [int(pygame.mouse.get_pos()[i]) for i in xrange(2)]
-
-		if e.type == KEYDOWN:
+		if e.type == QUIT:
+				going = False
+		elif e.type == KEYDOWN:
 			if e.key == K_ESCAPE: going = False
 			elif e.key == K_SPACE: direction = (0,1)
 		elif e.type == KEYUP:
